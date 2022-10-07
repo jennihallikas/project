@@ -16,7 +16,7 @@ print("2. YOU WILL BE GIVEN OPTIONS OF THE CONNECTING AIRPORTS TO YOUR DESTINATI
 print("3. THERE IS A LIMITED TIME SET FOR YOU TO REACH THE DESTINATION ")
 print("4. YOUR GOAL IS TO CHOOSE CORRECT CONNECTING AIRPORT AND REACH THE DESTINATION WITHIN THE TIME LIMIT")
 print("5. IF YOU REACH WITHIN THE TIME LIMIT THAT IS SET, YOU WIN!!!")
-print("--------------- LET'S  BEGIN ----------------")
+print("--------------- LET'S  BEGIN ----------------\n\n")
 
 
 def dest(airport):
@@ -49,7 +49,7 @@ def connecting():
     return countries
 
 
-print(" The list of connecting airports are: ")
+print("\n The list of connecting airports are: ")
 connecting()
 
 
