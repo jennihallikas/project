@@ -52,6 +52,21 @@ def connecting():
 print("\n The list of connecting airports are: ")
 connecting()
 
+def choose(connecting_airport):
+    sql = "SELECT country, connecting_airports FROM connections"
+    sql += " WHERE country='" + connecting_airport + "'"
+    cursor = connection.cursor()
+    cursor.execute(sql)
+    result = cursor.fetchall()
+    if cursor.rowcount > 0:
+        for row in result:
+            print(f"Your airport is {row[1]}, {row[0]}")
+    return connecting_airport
+
+
+connecting_airport = input("\nPlease choose the country of the connecting airport-")
+choose(connecting_airport)
+
 
 
 
