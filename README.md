@@ -10,4 +10,7 @@
 - Functional Requirements
 - Quality requirements
 ### Introduction
-A flight game project built using Python, and data from the database
+A flight game project built using Python, Database SQL
+### Vision
+The aim of Airport Heist is to create a game that is entertaining, fun, and a little sharp to be easily won. 
+Some strategic elements include: choosing what kind of country you want to destinate, geographical location, estimated flight time,.. 
