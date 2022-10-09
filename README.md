@@ -1,8 +1,13 @@
 # Project
 # Flight game project
+## Members:
+- Hallikas Jenni
+- Chauhan Rashi
+- Dang Xuan
 ## Contents:
 - Introduction
 - Vision
-- Story
 - Functional Requirements
-- Learning Tools And Information
+- Quality requirements
+### Introduction
+A flight game project built using Python, and data from the database
