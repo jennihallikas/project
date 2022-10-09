@@ -1,5 +1,5 @@
 # Project
-# Flight game project
+# Flight Game Project
 ## Members:
 - Hallikas Jenni
 - Chauhan Rashi
