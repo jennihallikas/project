@@ -5,10 +5,10 @@
 - Chauhan Rashi
 - Dang Xuan
 ## Contents:
-- ![(Introduction)]
+- [Introduction
 - Vision
 - Functional Requirements
-- Quality requirements
+- Quality requirements]
 
 ### Introduction:
 A flight game project built using Python, Database SQL
